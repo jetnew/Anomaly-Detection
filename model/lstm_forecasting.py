@@ -3,6 +3,7 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense
 from sklearn.metrics import mean_squared_error
 
+window_size = 10
 timesteps = window_size-1
 n_features = 1
 

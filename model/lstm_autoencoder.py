@@ -1,5 +1,7 @@
 from keras.layers import LSTM, Dense, RepeatVector, TimeDistributed
 from keras.models import Sequential
+import numpy as np
+import matplotlib.pyplot as plt
 
 
 class LSTM_Autoencoder:
